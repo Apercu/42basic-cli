@@ -18,6 +18,8 @@ module.exports = function () {
     }
   };
 
+  prompt.message = 'login'.blue;
+
   prompt.get(scheme, function (err, res) {
     if (err) { return console.log(err.toString()); }
     scrapper(res.login);
