@@ -1,6 +1,6 @@
 {
-  "name": "42-location-cli",
-  "version": "0.1.0",
+  "name": "42basic-cli",
+  "version": "0.2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,18 +8,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Apercu/42-location-cli.git"
+    "url": "git+https://github.com/Apercu/42basic-cli.git"
   },
   "author": "Balthazar Gronon",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Apercu/42-location-cli/issues"
+    "url": "https://github.com/Apercu/42basic-cli/issues"
   },
-  "homepage": "https://github.com/Apercu/42-location-cli#readme",
+  "homepage": "https://github.com/Apercu/42basic-cli#readme",
   "dependencies": {
     "nconf": "^0.7.1",
     "prompt": "^0.2.14",
     "request": "^2.58.0",
     "user-home": "^2.0.0"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "42basic": "index.js"
   }
 }
